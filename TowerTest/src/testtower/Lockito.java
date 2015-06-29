@@ -1,4 +1,4 @@
-//package testtower;
+package testtower;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,7 +8,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 public class Lockito {
 	WebDriver driver;
@@ -34,11 +33,11 @@ public class Lockito {
 				capabilities);
 	}
 
-	@Test
+	/*@Test
 	public void test_1x  {
 		
 
-	}
+	}*/
 
 	@AfterClass
 	public void afterClass() {
