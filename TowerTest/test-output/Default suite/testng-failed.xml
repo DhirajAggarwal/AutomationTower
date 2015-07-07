@@ -5,9 +5,9 @@
     <classes>
       <class name="testtower.NewTest">
         <methods>
+          <include name="test9_Logout"/>
           <include name="setup"/>
           <include name="afterClass"/>
-          <include name="test5_NavigateToHome"/>
         </methods>
       </class> <!-- testtower.NewTest -->
     </classes>
